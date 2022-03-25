@@ -1,0 +1,37 @@
+{
+  "name": "primos-number",
+  "version": "1.0.0",
+  "description": "Is an app written in typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farrellano/primos-number.git"
+  },
+  "keywords": [
+    "typescript",
+    "docker",
+    "npm",
+    "node"
+  ],
+  "author": "fas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farrellano/primos-number/issues"
+  },
+  "homepage": "https://github.com/farrellano/primos-number#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "is-number": "^7.0.0"
+  }
+}

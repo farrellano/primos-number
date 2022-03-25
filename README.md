@@ -1,2 +1,2 @@
 # primos-number
-primos number is an application written in node js
+primos number is an application written in typescript
