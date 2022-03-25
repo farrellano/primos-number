@@ -1,9 +1,12 @@
-FROM node:16.14-slim as Build
+FROM node:latest
 
-WORKDIR /app
-COPY . .
-
-RUN npm i
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+WORKDIR /home/node/app
+COPY package*.json ./
+USER node
+RUN rm -rf package-lock.json
+RUN npm install
+COPY --chown=node:node . .
 
 EXPOSE 3000
 CMD [ "npm","run","start"]
