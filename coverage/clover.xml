@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1648225058696" clover="3.2.0">
+  <project timestamp="1648225058696" name="All files">
+    <metrics statements="22" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2" elements="28" coveredelements="26" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="/Users/fabianarellanosuarez/Proyectos/node/primos-number/index.ts">
+      <metrics statements="22" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="1" type="cond" truecount="0" falsecount="1"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="8" type="cond" truecount="1" falsecount="0"/>
+      <line num="29" count="4" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
